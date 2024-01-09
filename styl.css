@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(fonty/Poppins-ExtraBold.ttf);
+    font-weight: bold;
+}
+
+.centrovany {
+    text-align: center;
+}
+html {
+    height: 100%;
+}
+body {
+    font: 14px "Poppins";
+    color: #760B67;
+    background:#F9F9F9;
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 960px;
+    padding-top: 100px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+}
+h2 {
+    font-size: 1.7em;
+}
+article header {
+    height: 80px;
+}
+article h1,
+article h2,
+article h3,
+article h4,
+article h5,
+article h1 {
+    color: #00386B;
+    padding: 10px 0;
+}
+img {
+    width: 300px;
+}
+article {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 50px 10px 50px;
+}
+article h1 {
+    margin: 0;
+    font-size: 2.3em;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: max-content;
+    border-bottom: 4px solid #EF6534;
+}
+article h2 {
+    font-size: 2em;
+}
+article section p {
+    line-height: 1.8em;
+    margin-bottom: 1.5em;
+}
+article section a {
+    color: #EF6534;
+    text-decoration: none;
+}
+.avatar {
+float: right;
+width: 300px;
+padding-left: 15px;
+filter: grayscale(1);
+}
+.cistic {
+    clear: both;
+}
+.reference-tlacitko {
+    background: #70B73A;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9em;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+body > header {
+    height: 100px;
+    width: 100%;
+    background: #00386B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+#logo {
+    height: 40px;
+    margin: auto 20px auto 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url("Obrazky/logo.png") no-repeat;
+    background-size: 40px 40px;
+}
+#logo > * {
+    margin: 0 0 0 50px;
+}
+#logo h1 {
+    font-weight: normal;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    color: white;
+}
+#logo h1 span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#logo small {
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+nav ul {
+    margin: auto;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+nav ul li {
+    padding: 0 25px;
+    margin: 0 5px;
+    font-size: 1em;
+    line-height: 3em;
+}
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+nav ul a:hover, .aktivni a {
+    border-bottom: 2px solid #ef6534;
+}
+
+.kontakt-tlacitko {
+    background: #ef6534;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.kontakt-tlacitko:hover,
+.reference-tlacitko:hover {
+    filter: brightness(115%) contrast(85%);
+    border: 0;
+}
+
+html {
+    background: #414042;
+}
+
+footer {
+    box-sizing: border-box;
+    background: #414042;
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-size: 1.1em;
+    height: 100px;
+    clip-path: polygon(0 30px, 100% 0, 100% 105%, 0 105%);
+}
+
+footer a {
+    color: #70B73A;
+    text-decoration: none;
+}
+
+.vlevo {
+   float: left;
+}
+
+#dovednosti td {
+    width: 33%;
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid grey;
+}
+
+#dovednosti {
+    border-collapse: collapse;
+}
+#reference img {
+    border: 1px solid grey;
+    padding: 6px;
+    box-shadow: 3px 3px 6px #999999;
+    margin-right: 6px;
+}
+
+
+img.screenshot {
+    margin-right: 100px;
+    padding-right: 100px;
+    margin-left: 10px;
+    padding-left: 5px;
+   float: right;
+
+
+    
+}
+
+.skills {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+    width: 60%;
+    justify-content: center;
+
+}
+
+footer {
+    margin-top: auto;
+}
+.future {
+    font-size: 25px;
+    margin-left: 230px;
+    text-align: left;
+ 
+}
+
+.future ul {
+    list-style: none;
+}
+
+.ref_section {
+    text-align: center;
+    font-size: 25px;
+}
